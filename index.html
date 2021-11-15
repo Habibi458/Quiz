@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js"></script>
+</head>
+<body>
+   
+    <form name="quiz" id="quiz">
+    <div class="container">
+        <h1>Quiz App</h1>
+        <img src="mathlol.jpg" width="1200px" height="280px">
+        <div class="questions">
+        <label class="lbl" name="q1"> 1. What number adds to 15 to get 20?</label><br><br>
+        
+       <p><input type="radio"  name="q1"  value="A"> 5<br></p> 
+       <p><input type="radio"  name="q1"  value="B"> 20<br> </p> 
+       <p><input type="radio"  name="q1"  value="C"> 18<br></p>
+       <br>
+       
+    </div>
+      
+    <div class="questions">
+            <label class="lbl" name="q2"> 2. What is the answer to 25 Divided by 5?</label><br><br>
+              
+        <p><input type="radio" name="q2"  value="A">4<br></p>
+        <p> <input type="radio" name="q2"  value="B">5<br> </p>
+       <p><input type="radio" name="q2"  value="C">6<br></p> 
+    </div>
+   
+    <div class="questions">
+        <label class="lbl" name="q3"> 3. What is 9 plus 10?</label><br><br>
+        
+       <p><input type="radio" name="q3"  value="A">21<br></p> 
+        <p><input type="radio" name="q3"  value="B">19<br> </p>
+       <p><input type="radio" name="q3"  value="C"> 16<br><br>
+       </div></p> 
+
+       <div class="questions">
+        <label class="lbl" name="q4"> 4. What subracts from 200 to get 170?</label><br><br>
+        
+       <p><input type="radio" name="q4"  value="A">25<br></p> 
+        <p><input type="radio" name="q4"  value="B">30<br> </p>
+       <p><input type="radio" name="q4"  value="C">50<br><br>
+       </div></p> 
+        
+
+       <div class="questions">
+        <label class="lbl" name="q5"> 5. What number times 5 gets 40?</label><br><br>
+        
+       <p><input type="radio" name="q5"  value="A">4<br></p> 
+        <p><input type="radio" name="q5"  value="B">8<br> </p>
+       <p><input type="radio" name="q5"  value="C">2<br><br>
+       </div></p> 
+        
+
+
+        
+       <input type="button" class="btn" value="Submit" onclick="check()">
+       <p id="result"> </p>
+
+        
+         
+    </div>
+    
+</form>
+
